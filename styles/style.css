@@ -1,0 +1,133 @@
+/* Header */
+.header {
+  box-sizing: border-box;
+  background-color: #131313;
+  padding: 30px 40px 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: block;
+}
+.header__item {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+.header__item-list {
+}
+.header__link {
+  font-family: "Inter", sans-serif;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+.header__link-active {
+  text-decoration: none;
+}
+/* End header */
+/* cover */
+.cover {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #2f2c45;
+  padding: 116px 40px;
+}
+.cover__title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+/* End cover */
+/* Hover */
+.hero {
+  box-sizing: border-box;
+  padding: 60px 37px 60px 40px;
+}
+.hero__text {
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero__subtitle-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero__subtitle-text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+/* End hover */
+/* lots */
+.lots {
+  box-sizing: border-box;
+  padding: 60px 40px;
+  background: #2f2c45;
+}
+.lots__title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+.lots__item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.lots__item-list {
+  flex: 1 1 328px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 30px 0;
+}
+.card-top {
+  text-align: center;
+  background-color: #f6c055;
+  border-radius: 20px 20px 0 0;
+}
+.card-dots-images {
+  max-width: 244px;
+}
+.card__text {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 30px 95px 30px;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+}
+.card__title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+}
+.card__subtitle-text {
+}
+.lots__item-list {
+}
+.card {
+}
+.card__background-blue {
+  padding: 34px 72px 0 72px;
+  background-color: #5493ce;
+}
+.card-butterfly-images {
+  max-width: 187px;
+}
+
+.card-stairs-images {
+}
+.card-warm-images {
+}
